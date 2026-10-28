@@ -1,0 +1,24 @@
+# A-Maze-ing default configuration
+# One KEY=VALUE per line. Lines starting with # are ignored.
+
+# Maze size in cells. The "42" pattern needs WIDTH >= 9 and HEIGHT >= 7.
+WIDTH=20
+HEIGHT=15
+
+# Entry and exit as x,y: x is the column, y is the row, both start at 0.
+ENTRY=0,0
+EXIT=19,14
+
+# Output file, one hexadecimal digit per cell.
+OUTPUT_FILE=maze.txt
+
+# True: exactly one path between entry and exit.
+# False: Pac-Man board with several routes and almost no dead-ends.
+PERFECT=False
+
+# Optional. The same seed always gives the same maze.
+# Delete this line to get a different maze on every run.
+SEED=42
+
+# Optional. True shows the shortest path when the display starts.
+SHOW_PATH=False

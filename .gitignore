@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+
+# Build outputs (the .whl at the repo root is committed on purpose)
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Local-only files (not graded)
+tests/
+maze_analyzer.py
+ilovepdf_merged.pdf
+docs/subject.pdf
+graphify-out/
+docs/graphify-out/
+.claude/
+
+# Generated maze
+maze.txt
+
+# Personal review notes
+docs/REVIEW.txt
