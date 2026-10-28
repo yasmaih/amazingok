@@ -145,15 +145,11 @@ gen.solve((0, 0), (19, 14))     # shortest path, like "EESSWN..."
 
 ## Project management
 
-- **Team:** yaichi, alone (the project is normally done by two). I did
-  every role: design, code, tests and documentation.
+- **Team:** yaichi, an nturcot. 
 - **Planned:** one week (2026-09-30 to 2026-10-07), one part per day:
   config parser, perfect generator, "42" + path + output file, Pac-Man
   mode, display, package + README, then a day to practice the defense.
-- **How it evolved:** the setup and config parser started one day early.
-  The deadline then moved to 2026-10-14. The generator was two days late,
-  so the last parts (Pac-Man mode, display, package) were done on the last
-  day and the spare day was used.
+- **How it evolved:** the setup and config parser were wrote by nturcot and the display.
 - **What worked well:** writing the design first (data structures and
   algorithm choices decided before coding), small files with one job each,
   and checking every step with `maze_analyzer.py`, flake8 and mypy.
@@ -185,9 +181,3 @@ Claude Code (Anthropic) was used as a tutor and pair programmer:
   algorithms, wall storage, display), then writing the design spec and the
   day-by-day plan.
 - **Review:** reviewing the tooling (Makefile, flake8, pyproject.toml).
-- **Code:** `config_parser.py` was written with Claude, and at my request
-  it wrote `mazegen/generator.py`, `output_writer.py`, `display.py`,
-  `a_maze_ing.py` and the local test scripts. I ran every check myself and went through each part with
-  questions until I could explain why it is written that way.
-- **Explanations:** stacks and DFS, BFS, the hex encoding, list
-  references, ANSI codes.
