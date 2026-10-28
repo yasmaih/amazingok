@@ -1,4 +1,4 @@
-*This activity has been created as part of the 42 curriculum by yaichi.*
+*This activity has been created as part of the 42 curriculum by yaichi and nturcot.*
 
 # A-Maze-ing
 
